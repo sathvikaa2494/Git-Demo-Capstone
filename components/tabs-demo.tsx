@@ -25,6 +25,15 @@ export default function TabsDemo() {
           </ul>
         </div>
       </TabsContent>
+
+      <TabsContent value="about" className="p-6 border rounded-md mt-2">
+        <div className="text-center py-6">
+          <h2 className="text-2xl font-bold mb-2">About</h2>
+          <p className="text-gray-600">
+            This project demonstrates Git workflows using a tabbed UI built with Next.js and Tailwind.
+          </p>
+        </div>
+      </TabsContent>
     </Tabs>
   )
 }
